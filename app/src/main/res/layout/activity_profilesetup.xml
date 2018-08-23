@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#15161d"
+    android:layout_height="match_parent"
+    tools:context=".profilesetup">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/profilesetup" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        app:srcCompat="@drawable/profilepic" />
+
+    <LinearLayout
+        android:id="@+id/college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="252dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="53dp"
+            android:textStyle="italic"
+            android:text="College"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/clg"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/blank"
+            android:hint="Enter your college"
+
+            android:textColorHint="#ffffff" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="italic
+"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="202dp"
+        android:text="Password"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:hint="Enter your password"
+        android:textColorHint="#ffffff"
+        android:layout_alignTop="@+id/txtview"
+        android:layout_toEndOf="@+id/txtview"
+        android:background="@drawable/blank" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="155dp"
+        android:textStyle=""
+        android:text="Password Again"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginTop="-16dp"
+        android:layout_toEndOf="@+id/txtview"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/letsbegin" />
+
+
+</RelativeLayout>
