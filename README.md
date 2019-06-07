@@ -8,7 +8,7 @@ Live App on PlayStore
 To Download Apk -> [Click Here](https://play.google.com/store/apps/details?id=com.technocracy.nit.raipur.kleos.aavartan.nitrr.treasurehunt.game.techfest.brainstorming.coms.kleos)
 
 
-Organised By the Technical Committee Of NIT Raipur *Technocracy*
+Organised By the Technical Committee Of NIT Raipur **The Technocracy**
 
 
 Like us on Facebook :-
